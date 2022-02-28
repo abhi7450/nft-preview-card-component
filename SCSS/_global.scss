@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: $mainBG;
+  font-family: 'Outfit', sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+//Spacing
+.centering {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+//Flexbox
+.flex {
+  display: flex;
+  &__jc-c {
+    justify-content: center;
+  }
+
+  &__ai-c {
+    align-items: center;
+  }
+  &__jc-sb {
+    justify-content: space-between;
+  }
+}

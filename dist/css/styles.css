@@ -1,0 +1,89 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: #0d192b;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.centering {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex__jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex__ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex__jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.component {
+  width: 22.5rem;
+  height: 37.25rem;
+  background: #14253d;
+  border-radius: 22px;
+}
+
+.component__img {
+  width: 19rem;
+  height: 19rem;
+  margin-top: 25px;
+  border-radius: 7px;
+}
+
+.component__title {
+  font-weight: 600;
+}
+
+.component__para {
+  line-height: 1.45;
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+.component__detail {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #2f415b;
+}
+
+.component__detail .eth {
+  color: #00fff7;
+}
+
+.component__detail .eth svg {
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+}
+
+.component__detail .time svg {
+  position: relative;
+  top: 2px;
+  padding-right: 2px;
+}
+/*# sourceMappingURL=styles.css.map */

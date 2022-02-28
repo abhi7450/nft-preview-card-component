@@ -1,0 +1,40 @@
+.component {
+  width: 22.5rem;
+  height: 37.25rem;
+  background: $cardBG;
+  border-radius: 22px;
+  &__img {
+    width: 19rem;
+    height: 19rem;
+    margin-top: 25px;
+    border-radius: 7px;
+  }
+  &__title {
+    font-weight: 600;
+  }
+  &__para {
+    line-height: 1.45;
+    font-size: 18px;
+    font-weight: 300;
+    color: $softBlue;
+  }
+  &__detail {
+    padding-bottom: 20px;
+    border-bottom: 2px solid $lineColor;
+    .eth {
+      color: $Cyan;
+      svg {
+        position: relative;
+        top: 3px;
+        padding-right: 5px;
+      }
+    }
+    .time {
+      svg {
+        position: relative;
+        top: 2px;
+        padding-right: 2px;
+      }
+    }
+  }
+}
